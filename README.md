@@ -13,14 +13,14 @@
     
     {
     "usingComponents": {
-    "calendar": "your path/stepper"
+    "stepper": "your path/stepper"
     }
 
 3.使用组件
 
     pages/index/index.wxml文件里，增加
     
-    <calendar option="{{option}}" bind:setTotal="setTotal"/>
+    <stepper option="{{option}}" bind:setTotal="setTotal"/>
 
 4.配置文件
 
