@@ -1,0 +1,7 @@
+<navigator id="nav" url="plugin://hello-plugin/hello-page">
+  Go to Plugin page
+</navigator>
+<view style="width:92%; margin:0 auto;">
+  <text >数量：</text>
+  <stepper option="{{option}}" bind:setTotal="setTotal"></stepper>
+</view>
